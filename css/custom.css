@@ -24,7 +24,11 @@ h2 {
     font-size: 2rem;
 }
 
-nav {
+h3 {
+    font-size: 1.25rem;
+}
+
+/* nav {
     padding-top: 8rem;
 }
 
@@ -43,7 +47,7 @@ li > a {
     text-decoration: none;
     color: #141414;
     font-size: 1.15rem;
-}
+} */
 
 header {
     border: 2px solid #545454;
@@ -56,29 +60,28 @@ header {
 main {
     font-family: 'Poiret One', cursive;
     clear: both;
+    float: right;
     text-align: center;
     padding: 0.5rem 2.25rem 1.5rem 0.5rem;
-}
-
-
-#coming-soon {
-    font-family: 'Poiret One', cursive;
-    display: flex;
-    justify-content: center;
     font-size: 1.25rem;
-}
-
-main, #coming-soon {
-    margin-left: 40rem;
 }
 
 .intro-text {
     font-size: 1.25rem;
 }
 
-footer {
+/* footer {
     clear: both;
+} */
+
+@media only screen and (max-width: 600px) {
+    main {
+        background-color: #f1f1f1;
+        width: 55%;
+        font-size: 1.05rem;
+        margin-right: 0.15rem;
+        margin-top: 0.25rem;
+        padding-left: 1rem;
+    }
 }
-
-
 
