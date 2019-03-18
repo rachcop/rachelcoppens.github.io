@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+}
+
+#wrapper {
+    background-image: url(../images/index-background1.jpg);
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Poiret One', cursive;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+}
+
+nav {
+    padding-top: 8rem;
+}
+
+ul {
+    font-family: 'Major Mono Display', monospace;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    margin-right: 4rem;
+}
+
+li > a {
+    text-decoration: none;
+    color: #141414;
+    font-size: 1.15rem;
+}
+
+header {
+    border: 2px solid #545454;
+    width: 55%;
+    float: right;
+    padding: 1rem 2.25rem 1.5rem 1rem;
+    margin-top: 7rem;
+}
+
+main {
+    font-family: 'Poiret One', cursive;
+    clear: both;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 2.25rem 1.5rem 0.5rem;
+}
+
+.intro-text {
+    font-size: 1.25rem;
+}
+
+footer {
+    clear: both;
+}
+
+
+
